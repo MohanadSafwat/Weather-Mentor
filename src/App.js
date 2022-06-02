@@ -94,9 +94,9 @@ function App() {
   }, [city]);
 
   return (
-    <Router basename={'/Weather-Mentor'}>
+    <Router >
       <div className="App">
-        <Routes>
+        <Routes basename='/Weather-Mentor'>
           <Route
             path="/"
             element={
