@@ -96,7 +96,7 @@ function App() {
   return (
     <Router >
       <div className="App">
-        <Routes basename='/Weather-Mentor'>
+        <Routes>
           <Route
             path="/"
             element={
