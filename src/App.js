@@ -94,7 +94,7 @@ function App() {
   }, [city]);
 
   return (
-    <Router basename={"https://mohanadsafwat.github.io/Weather-Mentor"}>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Routes>
           <Route
