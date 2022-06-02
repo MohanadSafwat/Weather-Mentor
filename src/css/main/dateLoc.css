@@ -1,0 +1,65 @@
+.wrap{
+    position: absolute;
+    background: transparent;
+    display: flex;
+    top: 15vh;
+    margin: 0 10vw;
+    width: 80vw;
+    justify-content: space-between;
+}
+
+
+
+.date h1{
+    font-size: 4vw;
+    font-weight: 300;
+}
+.date h1 span{
+    font-size: 2vw;
+    font-weight: 300;
+
+}
+.date h2 {
+    font-size: 2vw;
+    font-weight: 300;
+
+}
+
+.location h1{
+    font-size: 3vw;
+    font-weight: 500;
+
+}
+.location h3{
+    font-size: 1.5vw;
+    font-weight: 400;
+
+}
+@media only screen and (max-width: 1250px) {
+   
+    
+    
+    .date h1{
+        font-size: 6vw;
+    }
+    .date h1 span{
+        font-size: 4vw;
+    
+    }
+    .date h2 {
+        font-size: 3.5vw;
+    
+    }
+    
+    .location h1{
+        font-size: 6vw;
+    
+    }
+    .location h3{
+        font-size: 3vw;
+    
+    }
+
+    
+  }
+

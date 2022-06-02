@@ -1,0 +1,9 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="30" height="30" fill="url(#sunset)"/>
+<defs>
+<pattern id="sunset" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_52_146" transform="scale(0.0208333)"/>
+</pattern>
+<image id="image0_52_146" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAHBSURBVHgB7ZeNccIwDIVfegzABnUngBHoBt2AdIJ2A9ig3QA2oJ0AugGdgHQC2MBVDtPojCGpFZvA+bvTYfIjyY70nACJRCJxk2itFdnGmEIg7hCOnEwZyxGIkBOIQppAp6Hmm+g9E/wTSRNL4tqOODJnzWNOeFBIoPunMSdhJ1/GhxR7EghI68kzx9PWnbYUJ0MAKIERqk2sZEe2zrJsha5iVOeNbKtPsyGb6YCvFl5QQi81ibtoRRBEJURJ9OlnRvZknSrIVmQ/5v+AbIiqpA58kD1Tae1wCWgCC2tVl6b+T10/MmXEWeASaIFm6+P95RUx0fuG9Uqe+eCTKPtHIRZ6ryQHNvDElNyBd8TCquMRPDE98fcUEAMrqPfqM3+ixegxRwrHn35zkrjCOjZk42/I+UIlr8o+WZdXjx1cOhyMyR6sY302XkNOwcbKcf5sXlf/RcafwCMcj8pxT8HG95AzYGPXjtw0r2Z0rYl9g24DyKjXYvTqLiDHOY6bqEClRuUr9Cf8GFuxpnYcUps5fCmT15cnP5fj1atQ7feAdpdQLGQllEgkEsHxkdHG0taCBAfbiXPBvWkn5tx2CSUi8At7JVag7CASdQAAAABJRU5ErkJggg=="/>
+</defs>
+</svg>

@@ -1,0 +1,206 @@
+.row{height:6.5vh ;}
+.row .main-svg {
+  height: 1vh;
+  width: 41vw;
+}
+
+.row .data {
+  display: flex;
+  height: 4vh;
+  justify-content: space-around;
+  margin-bottom: 0.3vh;
+}
+.row .data .date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 4vw;
+}
+
+.row .data .date h1 {
+  font-size: 1vw;
+  color: #495464;
+}
+.row .data .date p {
+  font-size: 0.9vw;
+  color: #495464;
+}
+
+.row .data .max {
+  display: flex;
+  align-items: center;
+  width: 4vw;
+}
+.row .data .max p {
+  color: #495464;
+  font-size: 1.1vw;
+}
+.row .data .max p sup {
+  color: #495464;
+  font-size: 0.8vw;
+}
+
+.row .data .max svg {
+  height: 3vh;
+  width: 2vw;
+  margin-right: 0.3vw;
+}
+
+.row .data .min svg {
+  height: 3vh;
+  width: 2vw;
+  margin-right: 0.3vw;
+  margin-bottom: -0.6vh;
+}
+.row .data .min {
+  display: flex;
+  align-items: center;
+  width: 4vw;
+}
+.row .data .min p {
+  color: #495464;
+  font-size: 1.1vw;
+}
+.row .data .min sup {
+  color: #495464;
+  font-size: 0.8vw;
+}
+
+.row .data .sunrise {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 4vw;
+}
+
+.row .data .sunrise p {
+  font-size: 0.9vw;
+  color: #495464;
+}
+.row .data .sunset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 4vw;
+}
+.row .data .sunset p {
+  font-size: 0.9vw;
+  color: #495464;
+}
+@media only screen and (max-width: 1250px) {
+  .row .main-svg {
+    width: 46vw;
+  }
+  
+}
+
+@media only screen and (max-width: 1050px) {
+  .row .main-svg {
+    width: 48vw;
+  }
+  
+}
+@media only screen and (max-width: 850px) {
+
+.row .main-svg {
+  width: 85vw;
+}
+
+
+.row .data .date {
+
+  width: 10vw;
+}
+
+.row .data .date h1 {
+  font-size: 2vw;
+}
+.row .data .date p {
+  font-size: 1.6vw;
+}
+
+.row .data .max {
+
+  width: 10vw;
+}
+.row .data .max p {
+  font-size: 2vw;
+}
+.row .data .max p sup {
+  font-size: 1.5vw;
+}
+
+.row .data .max svg {
+  height: 3vh;
+  width: 4vw;
+  margin-right: 0.6vw;
+}
+
+.row .data .min svg {
+  height: 4vh;
+  width: 4vw;
+  margin-right: 0.6vw;
+}
+.row .data .min {
+
+  width: 10vw;
+}
+.row .data .min p {
+  font-size: 2vw;
+}
+.row .data .min sup {
+  font-size: 1.5vw;
+}
+
+.row .data .sunrise {
+
+  width: 10vw;
+}
+
+.row .data .sunrise p {
+  font-size: 1.5vw;
+}
+.row .data .sunset {
+
+  width: 10vw;
+}
+.row .data .sunset p {
+  font-size: 1.5vw;
+}
+}
+@media only screen and (max-width: 450px) {
+
+
+  
+  .row .data .date h1 {
+    font-size: 3vw;
+  }
+  .row .data .date p {
+    font-size: 2.5vw;
+  }
+  
+
+  .row .data .max p {
+    font-size: 4vw;
+  }
+  .row .data .max p sup {
+    font-size: 2vw;
+  }
+
+
+  .row .data .min p {
+    font-size: 4vw;
+  }
+  .row .data .min sup {
+    font-size: 2vw;
+  }
+  
+  
+  .row .data .sunrise p {
+    font-size: 2vw;
+  }
+  
+  .row .data .sunset p {
+    font-size: 2vw;
+  }
+  }
