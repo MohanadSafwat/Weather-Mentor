@@ -94,7 +94,7 @@ function App() {
   }, [city]);
 
   return (
-    <Router basename='/Weather-Mentor' >
+    <Router basename='' >
       <div className="App">
         <Routes>
           <Route
