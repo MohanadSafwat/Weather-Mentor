@@ -1,0 +1,27 @@
+.dashboard-wrap .table {
+  background-color: #f7fbfc;
+  width: 45vw;
+  height: 50vh;
+  border-radius: 1.2vw;
+  padding: 1.3vw;
+  box-sizing: border-box;
+  box-shadow: rgba(45, 64, 89, 0.15) 0px 10px 50px;
+}
+
+@media only screen and (max-width: 1050px) {
+  .dashboard-wrap .table {
+    width: 52vw;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .dashboard-wrap .table {
+    width: 50vw;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .dashboard-wrap .table {
+    width: 90vw;
+  }
+}

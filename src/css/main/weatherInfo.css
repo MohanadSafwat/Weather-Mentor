@@ -79,7 +79,17 @@
 @media only screen and (max-width: 1250px) {
    
     
-    
+    .wrapWeatherInfo {
+        position: absolute;
+        bottom: 0;
+        height: 25vh;
+        width: 90vw;
+        padding: 2.5vh 5vw;
+        background-color: rgba(118, 118, 126, 0.64);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
 
       .wrapWeatherInfo .moreDetails p {
           font-size: 4vw;
@@ -113,7 +123,6 @@
       }
       
       .weatherBlocks .right .weatherDay{
-          padding: 2vw;
           width: 10vw;
           font-size: 2vw;
           margin-top: -3vh;
@@ -129,6 +138,41 @@
           font-size: 3vw;
       }
 
+    
+  }
+
+  @media only screen and (max-width: 850px) {
+   
+    
+ 
+
+      .wrapWeatherInfo .moreDetails p {
+          font-size: 6vw;
+    
+        }
+        
+      
+   
+      .weatherBlocks .active svg{
+          width: 18vw;
+          height: 18vh;
+      }
+      
+  
+
+      .weatherBlocks .right .weatherDay{
+          font-size: 1.8vw;
+   
+      }
+      
+      .weatherBlocks .right .temp{
+          font-size: 6vw;
+       
+      
+      }
+      .weatherBlocks .right .temp sup{
+          font-size: 4vw;
+      }
     
   }
 

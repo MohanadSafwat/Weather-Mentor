@@ -63,3 +63,32 @@
     
   }
 
+  @media only screen and (max-width: 850px) {
+   
+    
+    
+    .date h1{
+        font-size: 8vw;
+    }
+    .date h1 span{
+        font-size: 5vw;
+    
+    }
+    .date h2 {
+        font-size: 5vw;
+    
+    }
+    
+    .location h1{
+        font-size: 8vw;
+    
+    }
+    .location h3{
+        font-size: 5vw;
+    
+    }
+
+    
+  }
+
+

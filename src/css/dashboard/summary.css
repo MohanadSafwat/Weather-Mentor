@@ -1,0 +1,329 @@
+
+
+.dashboard-wrap .summary {
+    background-image: url("../../images/summary4.jpg");
+    background-size: cover;
+    width: 45vw;
+    height: 40vh;
+    border-radius: 1.5vw;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 50px;
+  }
+  .dashboard-wrap .summary .left {
+    flex: 3;
+    justify-content: space-around;
+  }
+  
+  .dashboard-wrap .summary .right {
+    flex: 2;
+  }
+  
+  .dashboard-wrap .summary .left .date-loc {
+    padding: 3vh 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .dashboard-wrap .summary .left .date-loc h1 {
+    font-size: 1.5vw;
+    font-weight: 400;
+  }
+  
+  .dashboard-wrap .summary .left .date-loc h2 {
+    font-size: 1.2vw;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.72);
+  }
+  
+  .dashboard-wrap .summary .left .temp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dashboard-wrap .summary .left .temp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dashboard-wrap .summary .left .temp h1 {
+    font-size: 4.2vw;
+    font-family: 900;
+  }
+  .dashboard-wrap .summary .left .temp h1 sup {
+    font-size: 2vw;
+    font-family: 900;
+  }
+  
+  .dashboard-wrap .summary .left .temp p {
+    font-size: 1.2vw;
+    font-family: 300;
+    margin-left: -1.3vw;
+  }
+  
+  .dashboard-wrap .summary .left .wind-rain {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 2vw;
+  }
+  .dashboard-wrap .summary .left .wind-rain svg {
+    width: 2vw;
+    height: 3vh;
+  }
+  .dashboard-wrap .summary .left .wind-rain p {
+    font-size: 1.2vw;
+  }
+  .dashboard-wrap .summary .left .wind-rain div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dashboard-wrap .summary .right .hourly-temp {
+    background-color: rgba(217, 217, 217, 0.36);
+    border-radius: 10px;
+    margin: 3vh 1vw;
+    width: 20vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .dashboard-wrap .summary .right .hourly-temp svg {
+    width: 15vw;
+    height: 25vh;
+    position: absolute;
+    bottom: 2vh;
+  }
+  .dashboard-wrap .summary .right .hourly-temp .info {
+    display: flex;
+    justify-content: space-around;
+    width: 18vw;
+    height: 30px;
+    background-color: #98989870;
+    align-items: center;
+    border-radius: 8px;
+    visibility: hidden;
+    margin-top: 2vh;
+  }
+  
+  .dashboard-wrap .summary .right .hourly-temp .info h1 {
+    font-size: 1.2vw;
+    font-weight: 800;
+  }
+  .dashboard-wrap .summary .right .hourly-temp .info h2 {
+    font-size: 1.2vw;
+    font-weight: 700;
+  }
+  
+  .dashboard-wrap .summary .right .hourly-temp .info p {
+    font-size: 1.1vw;
+    font-weight: 600;
+  }
+  
+
+@media only screen and (max-width: 1250px) {
+    .dashboard-wrap .summary {
+      width: 50vw;
+    }
+    .dashboard-wrap .summary .right .hourly-temp {
+      width: 24vw;
+  
+    }
+    .dashboard-wrap .summary .right .hourly-temp svg {
+  
+      width: 20vw;
+    }
+    
+
+  }
+
+
+@media only screen and (max-width: 1050px) {
+
+    .dashboard-wrap .summary {
+      width: 52vw;
+    }
+    .dashboard-wrap .summary .right .hourly-temp {
+      width: 26vw;
+  
+    }
+    .dashboard-wrap .summary .right .hourly-temp svg {
+  
+      width: 24vw;
+    }
+}  
+
+
+@media only screen and (max-width: 850px) {
+ 
+
+  .dashboard-wrap .summary {
+    width: 90vw;
+    margin-bottom: 5vh;
+  }
+
+
+
+.dashboard-wrap .summary .left .date-loc {
+  padding: 3vh 4vw;
+
+}
+
+.dashboard-wrap .summary .left .date-loc h1 {
+  font-size: 3vw;
+}
+
+.dashboard-wrap .summary .left .date-loc h2 {
+  font-size: 2vw;
+
+}
+
+
+
+.dashboard-wrap .summary .left .temp h1 {
+  font-size: 7vw;
+}
+.dashboard-wrap .summary .left .temp h1 sup {
+  font-size: 3vw;
+}
+
+.dashboard-wrap .summary .left .temp p {
+  font-size: 2vw;
+}
+
+.dashboard-wrap .summary .left .wind-rain {
+  padding: 3vh 4vw;
+}
+.dashboard-wrap .summary .left .wind-rain svg {
+  width: 5vw;
+  height: 5vh;
+}
+
+.dashboard-wrap .summary .left .wind-rain p {
+  font-size: 2.5vw;
+}
+
+
+.dashboard-wrap .summary .right .hourly-temp {
+  margin: 3vh 0vw;
+  width: 33vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.dashboard-wrap .summary .right .hourly-temp svg {
+  width: 30vw;
+  height: 25vh;
+  bottom: 2vh;
+}
+.dashboard-wrap .summary .right .hourly-temp .info {
+
+  width: 25vw;
+}
+
+.dashboard-wrap .summary .right .hourly-temp .info h1 {
+  font-size: 2vw;
+}
+.dashboard-wrap .summary .right .hourly-temp .info h2 {
+  font-size: 2vw;
+}
+
+.dashboard-wrap .summary .right .hourly-temp .info p {
+  font-size: 1.8vw;
+}
+
+
+
+}
+
+@media only screen and (max-width: 450px) {
+
+
+
+ 
+  .dashboard-wrap .summary {
+
+    flex-direction: column;
+    height: 65vh;
+
+  }
+
+
+  .dashboard-wrap .summary .left .date-loc {
+    padding:3vh 4vw 0 4vw;
+  
+  }
+
+
+.dashboard-wrap .summary .left .date-loc h1 {
+  font-size: 6vw;
+}
+
+.dashboard-wrap .summary .left .date-loc h2 {
+  font-size: 4vw;
+
+}.dashboard-wrap .summary .left .wind-rain {
+  padding: 0vh 4vw;
+}
+
+
+
+.dashboard-wrap .summary .left .temp h1 {
+  font-size: 15vw;
+}
+.dashboard-wrap .summary .left .temp h1 sup {
+  font-size: 6vw;
+}
+
+.dashboard-wrap .summary .left .temp p {
+  font-size: 6vw;
+}
+
+
+.dashboard-wrap .summary .left .wind-rain svg {
+  width: 8vw;
+  height: 8vh;
+}
+
+.dashboard-wrap .summary .left .wind-rain p {
+  font-size: 5vw;
+}
+
+
+.dashboard-wrap .summary .right .hourly-temp {
+  width: 80vw;
+  height: 30vh;
+  margin: 2vh auto;
+}
+
+.dashboard-wrap .summary .right .hourly-temp svg {
+  width: 55vw;
+  height: 25vh;
+  bottom: 2vh;
+}
+.dashboard-wrap .summary .right .hourly-temp .info {
+
+  width: 70vw;
+}
+
+.dashboard-wrap .summary .right .hourly-temp .info h1 {
+  font-size: 4vw;
+}
+.dashboard-wrap .summary .right .hourly-temp .info h2 {
+  font-size: 4vw;
+}
+
+.dashboard-wrap .summary .right .hourly-temp .info p {
+  font-size: 3vw;
+}
+
+
+
+}

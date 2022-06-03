@@ -1,0 +1,59 @@
+.dashboard-wrap .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2d4059;
+    background: linear-gradient(90deg, #2d4059 0%, rgba(187, 191, 202, 0.7) 100%);
+    background-color: #2d4059;
+    padding: 2vw;
+    box-shadow: rgba(187, 191, 202, 0.5) 0px 10px 50px;
+    width: 10vw;
+  }
+  
+  .dashboard-wrap .menu .back {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .dashboard-wrap .menu .back svg {
+    width: 3vw;
+    height: 3vh;
+  }
+  
+  .dashboard-wrap .menu .appIcon svg {
+    width: 10vw;
+    height: 10vh;
+    margin-top: 10vh;
+  }
+  .dashboard-wrap .menu h1 {
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-top: 2vh;
+    color: #f7fbfc;
+  }
+  
+
+
+@media only screen and (max-width: 850px) {
+   
+    .dashboard-wrap .menu {
+      background-color: #f7fbfc;
+      background: #f7fbfc;
+      border: none;
+      box-shadow: none;
+    }
+  
+    .dashboard-wrap .menu .back svg path {
+      fill :#495464; 
+    }
+    .dashboard-wrap .menu .appIcon svg  {
+      display: none;
+    }
+    .dashboard-wrap .menu  h1 {
+      visibility: hidden;
+    }
+    .dashboard-wrap .summary {
+      width: 90vw;
+      margin-bottom: 5vh;
+    }
+}  
